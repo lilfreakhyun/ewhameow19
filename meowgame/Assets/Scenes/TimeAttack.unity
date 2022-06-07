@@ -352,11 +352,11 @@ GameObject:
   - component: {fileID: 503059787}
   - component: {fileID: 503059786}
   - component: {fileID: 503059785}
-  - component: {fileID: 503059784}
   - component: {fileID: 503059783}
+  - component: {fileID: 503059784}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -373,8 +373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66df66bc37519947a0b0576c184cac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  time: 0
 --- !u!114 &503059784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,8 +701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66df66bc37519947a0b0576c184cac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  time: 0
 --- !u!4 &775031733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4107907119348396, guid: 393bb1456e9f83948ba1f8fa7a60a21a,
@@ -1416,7 +1412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 73f06abc94a6d0248b1129a2e960cb24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 73f06abc94a6d0248b1129a2e960cb24, type: 3}
       propertyPath: m_LocalPosition.z
